@@ -12,6 +12,7 @@ if (age >= 18) {
 }
 
 // check if person is allowed in staff area
+
 const personA = "student";
 const personB = "staff";
 

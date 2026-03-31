@@ -1,10 +1,10 @@
 // FUNCTIONS
 /**
- * funtions .. reusability, blocks of code organized together
+ * funtions .. reusable, blocks of code organized together
  *              and can be called any time
  *
  * parameters .. variables that are used inside the function paranthesis
- * arguments .. values we passed to funstion when we call/invoke them
+ * arguments .. values we passed to function when we call/invoke them
  */
 
 // funstion declaration

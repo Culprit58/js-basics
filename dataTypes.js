@@ -25,12 +25,12 @@ console.log(typeof 13.6);
 
 // 3. boolean ... true/falls
 
-console.log(Boolean("h"));
-console.log(Boolean(``));
-console.log(Boolean(0));
-console.log(Boolean(-23));
-console.log(Boolean(null));
-console.log(Boolean(undefined));
+console.log(Boolean("h")); // true
+console.log(Boolean(``)); // false
+console.log(Boolean(0));  // false
+console.log(Boolean(-23)); // true
+console.log(Boolean(null)); // false
+console.log(Boolean(undefined)); // false
 
 // 4. objects .. collection of related data represented in key/value pairs separated by commas
 
@@ -45,7 +45,7 @@ const student = {
   },
 };
 
-console.log(typeof student);
+console.log(typeof student); // object
 
 // accessing values in objects i.e lookup
 
@@ -74,14 +74,14 @@ console.log(car["owner"]["postalAddress"]);
 
 // 5. arrays ... list of values (any datatype). we use square brackets
 // arrays are considered special type of objects
-// uses indes (position of value) which always starts with index 0
+// uses index (position of value) which always starts with index 0
 
 const people = ["Mutai", "Enock"];
-console.log(typeof people);
-console.log(people[0]);
-console.log(people[1]);
+console.log(typeof people); // array
+console.log(people[0]); // Mutai
+console.log(people[1]); // Enock
 
-// Get the second feature of the Tesla Model 3 car3
+// Get the second feature of the Tesla Model 3 car3 >>> console.log(cars[1]["features"][1]);
 const cars = [
   {
     make: "Toyota", // String

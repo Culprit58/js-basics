@@ -11,14 +11,14 @@ console.log(67 >= 676);
 // loose equality operator == (checks if the values are equal)
 console.log(7 == "7");
 
-// loose inequality !=
+// loose inequality !=  ... checks if two values are not equal by first attempting to convert them to a common data type
 console.log(7 !== "7");
 
 // strict equality === (checks if the value and datatype matches)
 
 console.log(7 === 7);
 
-// strict inequality !==
+// strict inequality !== ... checks if two values are not equal by first attempting to convert them to a common data type
 console.log(7 !== "7");
 
 // logical operators
